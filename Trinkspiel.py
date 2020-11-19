@@ -1,3 +1,5 @@
+#The file is a first alpha. It only serves as an idea and is not yet functional.
+
 from tkinter import *
 import os
 
