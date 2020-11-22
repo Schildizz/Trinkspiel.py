@@ -11,12 +11,12 @@ def Wahrheit():
 
 
 master= Tk()
-master.geometry("150x150")
+master.geometry("200x60")
 
 master.configure(bg='light blue')
 
-Button(master, text="Aufgabe", command=Aufgabe).place(x=20, y=20)
-Button(master, text="Wahrheit", command=Wahrheit).place(x=25, y=50)
+Button(master, text="Aufgabe", command=os.system('python Test.py')).place(x=20, y=20)
+Button(master, text="Wahrheit", command=os.system('python Test.py')).place(x=100, y=20)
 
 
 mainloop()
